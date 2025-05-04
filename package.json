@@ -1,0 +1,31 @@
+{
+  "name": "go-fpl-docs",
+  "version": "1.0.0",
+  "description": "go-fpl documentation",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Comet11x/go-fpl-docs.git"
+  },
+  "keywords": [
+    "doc"
+  ],
+  "author": "Comet11x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Comet11x/go-fpl-docs/issues"
+  },
+  "homepage": "https://github.com/Comet11x/go-fpl-docs#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.6.3"
+  }
+}
